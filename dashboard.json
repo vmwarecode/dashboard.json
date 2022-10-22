@@ -1,0 +1,99 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1-1",
+      "creationTime": 1591918077121,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "3a74bde1-0827-43bd-97e8-9766869231f6",
+      "importAttempts": 0,
+      "importComplete": true,
+      "lastUpdateTime": 1592087635099,
+      "lastUpdateUserId": "59dd2b44-4b91-42ee-ad15-5a6fa4f108a3",
+      "locked": false,
+      "name": "SSL Certificate Expiry Dashboard",
+      "rank": 0,
+      "shared": false,
+      "states": [],
+      "temporary": false,
+      "userId": "59dd2b44-4b91-42ee-ad15-5a6fa4f108a3",
+      "widgetInteractions": [],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 2,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resource",
+                  "resourceKindMetrics": [],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": null,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": true},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": false},
+               "title": "SSL Certificates (Days Remaining)",
+               "valueSize": 24,
+               "visualTheme": 5
+            },
+            "gridsterCoords": {
+               "h": 10,
+               "w": 6,
+               "x": 1,
+               "y": 2
+            },
+            "height": 552,
+            "id": "7ac8c725-ce03-4afa-b9df-f932d668e4d4",
+            "title": "SSL Certificates (Days Remaining)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "resource": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "Instructions: https://virtualg.uk/monitoring-ssl-certificates-with-vmware-vrops-aria-operations-8-x"
+            },
+            "gridsterCoords": {
+               "h": 1,
+               "w": 4,
+               "x": 1,
+               "y": 1
+            },
+            "height": 90,
+            "id": "faf9a9b1-3657-48db-b2f5-96454f7c3667",
+            "title": "Instructions: https://virtualg.uk/monitoring-ssl-certificates-with-vmware-vrops-aria-operations-8-x",
+            "type": "IntSummaryCurrentPolicy"
+         }
+      ]
+   }],
+   "entries": {},
+   "uuid": "46a98b45-fd12-4e7e-a418-c7bbacabca65"
+}
